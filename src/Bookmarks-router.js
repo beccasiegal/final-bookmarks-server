@@ -1,3 +1,6 @@
+const express =require('express')
+const bookmark = require('../store')
+
 const BookmarksRouter = express.Router;
 BookmarksRouter
     .route('/bookmark')
@@ -22,7 +25,5 @@ BookmarksRouter
  })
  .delete((req, res)=> {})
 
-app.get('/bookmarks/:id', (req, res) => {
-  });
 
   module.exports = BookmarksRouter
