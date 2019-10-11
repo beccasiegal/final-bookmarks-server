@@ -7,7 +7,7 @@ BookmarksRouter
   .route('/bookmarks')
   .get((req, res) => {
     app.get('/', (req, res) => {
-      res.send('Hello, bookmarks!')
+      res.send('Hello, Bookmark!')
      })
   })
   .post(bodyParser, (req, res) => {
@@ -63,7 +63,7 @@ BookmarksRouter
   .route('/bookmarks/:id')
   .get((req, res) => {
     app.get('/', (req, res) => {
-      res.send('Hello, bookmarks!')
+      res.send('Hello, Bookmarks!')
      })
   })
   .delete((req, res) => {
