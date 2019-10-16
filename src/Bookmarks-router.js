@@ -88,4 +88,4 @@ BookmarksRouter
     });
   })
 
-module.exports = cardRouter
+module.exports = BookmarksRouter
