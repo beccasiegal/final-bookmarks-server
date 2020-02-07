@@ -1,0 +1,4 @@
+{"message":"Unauthorized request to path: /bookmarks/","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks/","level":"error"}
+{"message":"title is required","level":"error"}
+{"message":"Bookmark with id 09145348-1bd0-431b-b85f-02adc067f95c created","level":"info"}
